@@ -44,17 +44,16 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
 
 .project-description { text-align: left; margin-top: 2em}
 
-.gif-containers { padding: 0; margin: 0; width: 50% ; text-align: right;}
+.gif-containers { padding: 0; margin: 0; text-align: right;}
 .gif { width: 100%; height: 100%; object-fit: scale-down; }
-.project-description { width: 50%}
+
+/*Work Experience Section*/
+.experience-content { text-align: right}
+.experience-placeholder { padding: 0px;}
+#coffee_img { width: 100%; height: 100%; object-fit: scale-down; }
 
 /*Education Section*/
 #education { padding-right: 0px}
-.education-placeholder { width: 60%; padding: 0px;}
-.education-content { width: 40%;}
+.education-placeholder { padding: 0px; }
+.education-content { text-align: left; }
 #glasses_img { width: 100%; height: 100%; object-fit: scale-down; }
-
-/*Work Experience Section*/
-.experience-content { width: 40%; text-align: right}
-.experience-placeholder { width: 60%; padding: 0px;}
-#coffee_img { width: 100%; height: 100%; object-fit: scale-down; }
