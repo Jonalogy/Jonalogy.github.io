@@ -12,32 +12,43 @@
 
     <!--Custome Stylesheet -->
     <link rel="stylesheet" href="css/styles.css" media="screen">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
   </head>
   <body>
-    <div class="spacer" id="head_spacer"></div>
+    <div class="spacer disclaimer" id="head_spacer">
+      Thank you for dropping by! This site is not mobile-responsive yet and I'm working on it. Currently it is best viewed on the latest browswers :)
+    </div>
 
 
     <div class="container-fluid">
       <div class="row">
         <div class="overall-holder">
+
           <div class="sidebar-holder col-md-2">
             <div class="profile_img-holder">
               <img id="profile_img" src="images/profile.png" alt="profile-picture" />
             </div>
+
             <div class="side-nav-item">
-              <ul>
-                <li><a href="#jonathan">About Me</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
+              <a href="#jonathan" class="nav-btn btn" role="button">About Me</a>
+              <a href="#education" class="nav-btn btn" role="button">Education</a>
+              <a href="#experience" class="nav-btn btn" role="button">Work Experience</a>
+              <a href="#portfolio" class="nav-btn btn" role="button">Portfolio</a>
+            </div>
+
+            <div class="contact-links">
+              <a href="mailto:jonathantkk@gmail.com"><img id="email_link" class="contact-vectors" src="images/email_vector.png" alt="email"/></a>
+              <a href="https://www.linkedin.com/in/jonathantkk"><img class="contact-vectors" src="images/linked_vector.png" alt="LinkedIn"/></a>
+              <a href="https://github.com/Jonalogy"><img class="contact-vectors" src="images/github_vector.png" alt="Github Repo"/></a>
             </div>
           </div>
+
           <div class="col-md-2 spacer"></div>
           <div class="content-holder col-md-10">
             <div class="head-banner">
-              <img id="banner_img" src="images/keyboard_water.jpg" alt="banner" />
+              <img id="banner_img" src="images/keyboard_deep_soul.jpg" alt="banner" />
               <h1 id="banner-announcement" > Site Under Construction! </h1>
             </div>
 
@@ -45,24 +56,51 @@
               <h3>Hi I'm Jonathan</h3>
               A creator, a craftsman and a curious mind with full stack web development experience. I enjoy ideation and bringing ideas to life is my thing.
             </div>
-            <div id="education" class="section">
-              <h3>Education</h3>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div id="education" class="section col-sm-12">
+              <div id="education-content"  class="education-content col-md-5">
+                <h3>Education</h3>
+
+                <h5>General Assembly Singapore</h5>
+                <p>Web Developement Immersive</p>
+
+                <h5>Nanyang Technological University</h5>
+                <p>Bachelor of Engineering (Electrical &amp; Electronic Engineering)</p>
+
+                <h5>Korea University</h5>
+                <p>Summer Studies Program</p>
+
+                <h5>Singapore Polytechnic</h5>
+                <p>Diploma in Electrical &amp; Electronic Engineering</p>
+              </div>
+
+
+              <div class="education-placeholder col-md-7">
+                <img id="glasses_img" src="images/glasses_wide.jpg" alt="placeholder" />
+              </div>
             </div>
-            <div id="experience" class="section">
-              <h3>Work Experience</h3>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            <div id="experience" class="section col-sm-12">
+              <div class="experience-placeholder col-md-7 ">
+                <img id="coffee_img" src="images/coffee_mug_wide.jpg" alt="placeholder" />
+              </div>
+              <div class="experience-content col-md-5">
+                <h3>Work Experience</h3>
+
+                <h5>Toshiba Asia Pacific Pte Ltd</h5>
+                <p> Sales Operations, Industry Systems Division </p>
+
+                <h5> Siemens Singapore </h5>
+                <p> Intern, Industry Sector’s Aftermarket Division  </p>
+
+              </div>
             </div>
+
             <div id="portfolio" class="section">
               <h3>Portfolio</h3>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div id="contact" class="section">
-              <h3>Contact</h3>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
 
