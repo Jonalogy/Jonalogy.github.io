@@ -8,6 +8,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
 
 /*.sidebar-holder, .content-holder { border: 1px black dashed;}*/
 .sidebar-holder { position: fixed; }
+.hide-sidebar { display: none}
 
 /*Nav Buttons*/
 .nav-btn { background: none; color: grey; border-color: grey; display:block; margin: 5px 0 5px 0; }
@@ -20,7 +21,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
 .contact-links { text-align: center;}
 
 /* Profile Image*/
-.profile_img-holder { height: 200px; width: 200px; }
+.profile_img-holder { height: 100%; width: 100%; }
 #profile_img { width: 100%; height: 100%; object-fit: scale-down ; border-radius: 20%; border: 1px rgba(100, 100, 100, 0.3) solid}
 
 /*Banner Section*/
