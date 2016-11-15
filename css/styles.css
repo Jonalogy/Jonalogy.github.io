@@ -1,7 +1,12 @@
 /*General*/
-body { font-family: 'Open Sans', sans-serif;}
+body { font-family: 'Open Sans', sans-serif; background-color: white}
 h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
-.sidebar-holder, .content-holder { border: 1px black dashed;}
+
+/*Spacers Only*/
+.spacer { border: 1px solid grey;}
+#head_spacer { height: auto; }
+
+/*.sidebar-holder, .content-holder { border: 1px black dashed;}*/
 .sidebar-holder { position: fixed; }
 
 /*Nav Buttons*/
@@ -32,12 +37,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
 #glasses_img { width: 100%; height: 100%; object-fit: scale-down; }
 
 /*Work Experience Section*/
-.experience-content { width: 40%; }
+.experience-content { width: 40%; text-align: right}
 .experience-placeholder { width: 60%; padding: 0px;}
 #coffee_img { width: 100%; height: 100%; object-fit: scale-down; }
-
-
-
-/*Spacers Only*/
-.spacer { border: 1px solid grey;}
-#head_spacer { height: auto; }
