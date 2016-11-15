@@ -1,9 +1,10 @@
 /*General*/
 body { font-family: 'Open Sans', sans-serif; background-color: white}
 h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
+.section { margin-top: 2%; margin-bottom: 2%}
 
 /*Spacers Only*/
-.spacer { border: 1px solid grey;}
+/*.spacer { border: 1px solid grey;}*/
 #head_spacer { height: auto; }
 
 /*.sidebar-holder, .content-holder { border: 1px black dashed;}*/
@@ -22,14 +23,30 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
 
 /* Profile Image*/
 .profile_img-holder { height: 100%; width: 100%; }
-#profile_img { width: 100%; height: 100%; object-fit: scale-down ; border-radius: 20%; border: 1px rgba(100, 100, 100, 0.3) solid}
+#profile_img { width: 100%; height: 100%; object-fit: scale-down; border-radius: 20%; border: 1px rgba(100, 100, 100, 0.3) solid}
 
 /*Banner Section*/
-.head-banner, .section { border: 1px blue dashed; }
+/*.head-banner, .section { border: 1px blue dashed; }*/
 .head-banner { width: 100%; height: 400px; position: relative}
 #banner_img { width: 100%; height: 100%; object-fit: cover; }
 #banner-announcement { position: absolute; bottom: 0; left: 0; background-color: rgba(100, 100, 100, 0.7); color: white;}
 .disclaimer { font-family: helvetica; text-align: center;}
+
+/*About Me*/
+/*#about-me { margin: 3% 0 0 3%}*/
+
+/*Portfolio Section*/
+#portfolio { text-align: center;}
+#project-nav > li { display: inline-block; }
+.project-nav-link { font-family: 'Roboto Slab', serif; font-size: 1.3em; }
+.project-nav-link:hover { letter-spacing: 2px; cursor: pointer; font-size: 1.5em;}
+.hide-gif-panels { display: none; }
+
+.project-description { text-align: left; margin-top: 2em}
+
+.gif-containers { padding: 0; margin: 0; width: 50% ; text-align: right;}
+.gif { width: 100%; height: 100%; object-fit: scale-down; }
+.project-description { width: 50%}
 
 /*Education Section*/
 #education { padding-right: 0px}
