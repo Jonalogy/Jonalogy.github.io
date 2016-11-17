@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Roboto Slab', serif; }
 .disclaimer { font-family: helvetica; text-align: center;}
 
 /*About Me*/
-#about-me { border: 1px solid grey; }
+/*#about-me { border: 1px solid grey; }*/
 
 /*Portfolio Section*/
 #portfolio { text-align: center;}
